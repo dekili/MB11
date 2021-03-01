@@ -189,9 +189,9 @@ Mehrere Dinge sind nun gleichzeitig geschehen:
 
 2. Zudem wird im Command Window das Ergebnis der Operation ausgegeben:
 
-   > a =
-   >
-   > ​	 5
+   > a =    
+   >    
+   > ​	 5    
 
 3. Im Workspace wurde ein neues Objekt mit Namen `a` und Wert 5 erstellt.
 
@@ -209,9 +209,9 @@ a(1,2) = 1
 
 Damit wird `a` erweitert zu einer 1x2 Matrix. Die Ausgabe würde nun folgendermaßen aussehen:
 
-> a =
->
-> ​	 5     1
+> a =    
+>    
+> ​	 5     1    
 
 <br>
 
@@ -221,10 +221,10 @@ Auch existieren in MATLAB bereits vordefinierte Werte, wie z.B. für pi.
 a(2,1)=pi
 ```
 
-> a = 
->
-> ​	5.0000    	1.0000
-> ​	3.1416        0
+> a =     
+>    
+> ​	5.0000    	1.0000    
+> ​	3.1416        0    
 
 <br>
 
@@ -242,9 +242,9 @@ Wesentlich **komfortabler** lassen sich Matrizen folgendermaßen generieren, d.h
 b=[5 1 ; pi 0]
 ```
 
->b =
->	5.0000 	1.0000
->	3.1416 	0
+>b =    
+>	5.0000 	1.0000    
+>	3.1416 	0    
 
 <br>
 
@@ -254,9 +254,9 @@ Auch **Strings** (also Zeichenketten) werden in MATLAB als Matrizen behandelt. S
 text = 'Hello world'
 ```
 
-> text =
->
-> ​	'Hello world'
+> text =    
+>    
+> ​	'Hello world'    
 
 <br>
 
@@ -270,9 +270,9 @@ Hierbei leistet der Operator `:` gute Dienste. Mit diesem lassen sich auf einfac
 1:2:10
 ```
 
-> ans =
->
-> ​     1     3     5     7     9
+> ans =    
+>    
+> ​     1     3     5     7     9    
 
 <br>
 
@@ -282,11 +282,11 @@ Gegeben sei nun die folgende 3x3-Matrix `M`:
 M=[1:3 ; 4:6 ; 7:9]
 ```
 
-> M =
->
-> ​	 1     2     3
-> ​	 4     5     6
-> ​	 7     8     9
+> M =    
+>    
+> ​	 1     2     3    
+> ​	 4     5     6    
+> ​	 7     8     9    
 
 <br>
 
@@ -296,19 +296,19 @@ Um nun alle Werte der ersten Spalte der Matrix `M`zu erhalten, könnte man die e
 M(1),M(2),M(3)
 ```
 
-> ans =
->
-> ​	 1
->
->
-> ans =
->
->  	4
->
->
-> ans =
->
->  	7
+> ans =    
+>    
+> ​	 1    
+>    
+>    
+> ans =    
+>    
+>  	4    
+>    
+>    
+> ans =    
+>    
+>  	7    
 
 <br>
 
@@ -318,11 +318,11 @@ Aber das geht noch deutlich komfortabler. So ergibt auch die folgende Zeile die 
 M(:,1)
 ```
 
-> ans =
->
-> ​	1
-> ​	4
-> ​	7
+> ans =    
+>    
+> ​	1    
+> ​	4    
+> ​	7    
 
 <br>
 
@@ -332,10 +332,10 @@ Die erste und dritte Zeile lässt sich über folgende Indexierung ansprechen:
 M([1 3],:)
 ```
 
-> ans =
->
-> ​	 1     2     3
-> ​	 7     8     9
+> ans =    
+>    
+> ​	 1     2     3    
+> ​	 7     8     9    
 
 <br>
 
@@ -345,10 +345,10 @@ Der Begriff `end` steht für den maximalen Index:
 M([1 3],end-1:end)
 ```
 
-> ans =
->
->  	2     3
->  	8     9
+> ans =    
+>    
+>  	2     3    
+>  	8     9    
 
 <br>
 
@@ -360,9 +360,9 @@ Die **Dimensionalität** einer Matrix ermittelt man mit dem Befehl `size`, die L
 size(M)
 ```
 
-> ans =
->
-> ​	 3     3
+> ans =    
+>    
+> ​	 3     3    
 
 <br>
 
@@ -374,22 +374,22 @@ A=[1 2;3 4],B=[5 6; 7 8]
 A * B
 ```
 
-> A =
->
->  	1     2
-> 	 3     4
->
->
-> B =
->
->  	5     6
-> 	 7     8
->
->
-> ans =
->
-> ​	19    22
-> ​	43    50
+> A =    
+>    
+>  	1     2    
+> 	 3     4    
+>    
+>    
+> B =    
+>    
+>  	5     6    
+> 	 7     8    
+>    
+>    
+> ans =    
+>    
+> ​	19    22    
+> ​	43    50    
 
 <br>
 
@@ -399,10 +399,10 @@ Möchte man stattdessen die beiden Matrizen <u>elementweise</u> multiplizieren, 
 A .* B
 ```
 
-> ans =
->
-> ​	 5     12
-> ​	21    32
+> ans =    
+>    
+> ​	 5     12    
+> ​	21    32    
 
 <br>
 
@@ -412,9 +412,9 @@ Um alle Werte einer Zeile aufzusummieren, benutzt man die Function `sum()`:
 sum(A(1,: ))
 ```
 
-> ans =
->
->  	3
+> ans =    
+>    
+>  	3    
 
 <br>
 
@@ -424,10 +424,10 @@ Die Transponierte der Matrix `A` erhält man über den Operator `'`:
 A'
 ```
 
-> ans =
->
->  	1     3
->  	2     4
+> ans =    
+>    
+>  	1     3    
+>  	2     4    
 
 <br>
 
@@ -497,14 +497,14 @@ __________
 
 - [ ] Erstellen sie die folgende Matrix `B`:
 
-  > C =
-  > 	0 0 0 0 0 0 0
-  > 	0 1 1 1 1 1 0
-  > 	0 1 2 2 2 1 0
-  > 	0 1 2 3 2 1 0
-  > 	0 1 2 2 2 1 0
-  > 	0 1 1 1 1 1 0
-  > 	0 0 0 0 0 0 0
+  > C =    
+  > 	0 0 0 0 0 0 0    
+  > 	0 1 1 1 1 1 0    
+  > 	0 1 2 2 2 1 0    
+  > 	0 1 2 3 2 1 0    
+  > 	0 1 2 2 2 1 0    
+  > 	0 1 1 1 1 1 0    
+  > 	0 0 0 0 0 0 0    
 
   
 
