@@ -13,11 +13,11 @@
       - [2.2.1 Generierung von Matrizen](#221-generierung-von-matrizen)
       - [2.2.2 Indexierung](#222-indexierung)
       - [2.2.3 Grundlegende Matrix Operationen](#223-grundlegende-matrix-operationen)
-        * [>>Aufgaben<<](#--aufgaben--)
+        * [Aufgaben](#--aufgaben--)
       - [2.2.4 Kontrollstrukturen](#224-kontrollstrukturen)
         * [If-Bedingungen](#if-bedingungen)
         * [for-Schleifen](#for-schleifen)
-        * [**>>Aufgaben<<**](#----aufgaben----)
+        * [**Aufgaben**](#----aufgaben----)
 
 
 ## 1 MATLAB Download & Installation
@@ -27,7 +27,7 @@
 * Erstellen Sie auf dem [MathWorks-Portal der TU Darmstadt](https://de.mathworks.com/academia/tah-portal/tu-darmstadt-31483887.html) einen Account auf Ihre studentische E-Mail-Adresse.
 * Laden Sie in Ihrem MathWorks-Account den Installer der aktuellen MATLAB-Version (2020b, Update 4) für Ihr Betriebssystem herunter.
 * Starten Sie den Installer mit Administrator-Rechten.
-* Installieren die MATLAB mit folgender Auswahl an Toolboxes:
+* Installieren Sie MATLAB mit folgender Auswahl an Toolboxes:
   * *Image Processing Toolbox*
   
   * *Signal Processing Toolbox*
@@ -163,9 +163,10 @@ Im Folgenden werden einige wesentliche Schritte bei der Programmierung mit MATLA
 
 
 
-> HINWEIS
+> WICHTIGER HINWEIS
 >
-> Um Code abspeichern zu können, sollte ausschließlich im Editor-Fenster gearbeitet werden.
+> Um Code abspeichern zu können, sollte ausschließlich im Editor gearbeitet werden.    
+> Das Command-Window dient dagegen nur für einfaches Ausprobieren / Aufrufen des help-Befehls und sollte nur in Ausnahmefällen verwendet werden.
 
 
 
@@ -174,9 +175,9 @@ Im Folgenden werden einige wesentliche Schritte bei der Programmierung mit MATLA
 In MATLAB lassen sich neue Objekte mittels des Operators  `=` definieren. Dazu erstellen wir hier als Beispiel eine neue Matrix `a`. 
 Genauer gesagt ein Skalar, also eine 1x1 Matrix. Das Skalar soll den Wert 5 annehmen.
 
+ **Aufgaben**
 - [ ] Geben Sie im Script folgende Zeile ein: `a = 5`
-
-- [ ] Markieren diese vollständig.
+- [ ] Markieren Sie die Zeile vollständig.
 - [ ] Drücken Sie`F9`, um den markierten Bereich auszuführen.
 
 <img src="img\3 MATLAB\2.jpg" alt="C2" align=center width="1080" />
@@ -435,7 +436,7 @@ _____
 
 
 
-##### >>Aufgaben<<
+**Aufgaben**
 
 - [ ] Addieren Sie alle Werte in der ersten Spalte der Matrix `A`.
 
