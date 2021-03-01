@@ -34,7 +34,7 @@
   
   * *Statistics & Machine Learning Toolbox*
   
-    
+<br>    
 
 ### 1.2 Informationen zur MATLAB Campuslizenz
 
@@ -53,7 +53,7 @@ Die Campuslizenz wird vom Präsidium und den Hauptnutzerbereichen finanziert und
 
 ([Quelle](https://www.hrz.tu-darmstadt.de/hrz_aktuelles/news_details_109312.de.jsp), zuletzt abgerufen am 25.02.2021)
 
-
+<br>
 
 ### 1.3 Download über MathWorks
 
@@ -62,31 +62,31 @@ Besuchen Sie den angegebenen Link und klicken Sie auf den Button *"Sign in to ge
 
 <img src="img\1 Mathworks & Download\1.jpg" alt="A1" align=center width="1080" />
 
-
+<br>
 
 Um MATLAB herunterzulande, benötigen Sie einen **MathWorks Account**. Falls Sie noch keinen Account besitzen, klicken Sie unter der E-Mail-Adressleiste auf "Account erstellen!". Verwenden Sie bei der Erstellung dringend Ihre **studentischen E-Mail-Adresse** (...@stud.tu-darmstadt.de).
 
 <img src="img\1 Mathworks & Download\2.jpg" alt="A2" align=center width="1080" />
 
-
+<br>
 
 Geben Sie nun ihre studentische E-Mail-Adresse und die folgenden weiteren Informationen an:
 
 <img src="img\1 Mathworks & Download\3.jpg" alt="A3" align=center width="1080" />
 
-
+<br>
 
 Sobald Ihr Account eingerichtet wurde, finden Sie unter Ihrem Account Ihre individuelle MATLAB Lizenz. Um diese herunterzuladen, klicken Sie rechts neben dem Lizenzeintrag auf den Pfeil nach unten: 
 
 <img src="img\1 Mathworks & Download\4.jpg" alt="A4" align=center width="1080" />
 
-
+<br>
 
 Nun können Sie den Installer für die aktuellste MATLAB-Version (2020b, Update 4) herunterladen. Dieser wird für alle gängigen Betriebssysteme (Windows, Mac, Linux) angeboten:
 
 <img src="img\1 Mathworks & Download\5.jpg" alt="A5" align=center width="1080" />
 
-
+<br>
 
 ### 1.4 Installation
 
@@ -96,25 +96,25 @@ Nachdem sich das Installer-Fenster geöffnet hat, geben Sie wieder Ihre studenti
 
 <img src="img\2 Installer\1.jpg" alt="B1" align=center width="1080" />
 
-
+<br>
 
 Um die Lizenzvereinbarungen zu akzeptieren, klicken Sie auf "Yes" und Next":
 
 <img src="img\2 Installer\2.jpg" alt="B2" align=center width="1080" />
 
-
+<br>
 
 Wählen Sie nun Ihre individuelle MATLAB Lizenz aus und klicken Sie auf "Next":
 
 <img src="img\2 Installer\3.jpg" alt="B3" align=center width="1080" />
 
-
+<br>
 
 Wählen Sie Ihren Installationsordner für MATLAB aus. Falls möglich, sollten Sie den bereits angegebenen Ordnerpfad verwenden.  
 
 <img src="img\2 Installer\4.jpg" alt="B4" align=center width="1080" />
 
-
+<br>
 
 Neben der MATLAB Entwicklungsumgebung benötigen wir für die Datenanalyse **weitere Toolboxes**. Wählen Sie dazu die folgenden Toolboxes zur Installation aus:
 
@@ -126,8 +126,7 @@ Bestätigen Sie auf den darauf folgenden Seiten und schließen Sie die Installat
 
 <img src="img\2 Installer\5.jpg" alt="B5" align=center width="1080" />
 
-
-
+<br><br>
 
 
 ## 2 Quick Tutorial
@@ -138,7 +137,7 @@ Starten Sie nun die MATLAB-Anwendung *MATLAB R2020b.exe*. Sollte die Installatio
 
 - [ ] Öffnen Sie zunächst ein leeres Skript über den Button *Blank script* (links oben) bzw. die Tastenkombination `Strg+N`.
 
-
+<br>
 
 ### 2.1 MATLAB Entwicklungsumgebung
 
@@ -156,7 +155,7 @@ Die **MATLAB-Entwicklungsumbebung** ist in folgende vier Fenster unterteilt:
 
 <img src="img\3 MATLAB\1.jpg" alt="C1" align=center width="1080" />
 
-
+<br>
 
 ### 2.2 Programmieren mit MATLAB
 
@@ -182,6 +181,8 @@ Genauer gesagt ein Skalar, also eine 1x1 Matrix. Das Skalar soll den Wert 5 anne
 
 <img src="img\3 MATLAB\2.jpg" alt="C2" align=center width="1080" />
 
+<br>
+
 Mehrere Dinge sind nun gleichzeitig geschehen:
 
 1. Im Command Window wird der übergebene Code noch einmal wiedergegeben: `>> a = 5`
@@ -194,7 +195,7 @@ Mehrere Dinge sind nun gleichzeitig geschehen:
 
 3. Im Workspace wurde ein neues Objekt mit Namen `a` und Wert 5 erstellt.
 
-
+<br>
 
 #### 2.2.1 Generierung von Matrizen
 
@@ -204,11 +205,15 @@ Die neu erstellte Matrix `a` lässt sich nun beliebig erweitern:
 a(1,2) = 1
 ```
 
+<br>
+
 Damit wird `a` erweitert zu einer 1x2 Matrix. Die Ausgabe würde nun folgendermaßen aussehen:
 
 > a =
 >
 > ​	 5     1
+
+<br>
 
 Auch existieren in MATLAB bereits vordefinierte Werte, wie z.B. für pi.
 
@@ -221,7 +226,7 @@ a(2,1)=pi
 > ​	5.0000    	1.0000
 > ​	3.1416        0
 
-
+<br>
 
 Anhand des vorherigen Beispiels sieht man nun gleich mehrere Dinge: 
 
@@ -229,7 +234,7 @@ Anhand des vorherigen Beispiels sieht man nun gleich mehrere Dinge:
 
 2. Matlab erlaubt nur reguläre n × m Matrizen und fügt deshalb bei der letzten Erweiterung automatisch eine 0 ein. Dies ist in unserem Beispiel für `a(2,2)` der Fall.
 
-   
+<br>
 
 Wesentlich **komfortabler** lassen sich Matrizen folgendermaßen generieren, d.h. in eckigen Klammern mit einem Semikolon als Zeilentrenner.
 
@@ -241,7 +246,7 @@ b=[5 1 ; pi 0]
 >	5.0000 	1.0000
 >	3.1416 	0
 
-
+<br>
 
 Auch **Strings** (also Zeichenketten) werden in MATLAB als Matrizen behandelt. Strings werden benötigt, um beispielsweise Dateien in einem Skript zu öffnen und abzuspeichern oder eine Grafik zu beschriften.
 
@@ -253,7 +258,7 @@ text = 'Hello world'
 >
 > ​	'Hello world'
 
-
+<br>
 
 #### 2.2.2 Indexierung
 
@@ -269,7 +274,7 @@ Hierbei leistet der Operator `:` gute Dienste. Mit diesem lassen sich auf einfac
 >
 > ​     1     3     5     7     9
 
-
+<br>
 
 Gegeben sei nun die folgende 3x3-Matrix `M`:
 
@@ -283,7 +288,7 @@ M=[1:3 ; 4:6 ; 7:9]
 > ​	 4     5     6
 > ​	 7     8     9
 
-
+<br>
 
 Um nun alle Werte der ersten Spalte der Matrix `M`zu erhalten, könnte man die einfachste Form der Indexierung einer Matrix verwenden:
 
@@ -305,7 +310,7 @@ M(1),M(2),M(3)
 >
 >  	7
 
-
+<br>
 
 Aber das geht noch deutlich komfortabler. So ergibt auch die folgende Zeile die erste Spalte der Matrix `M`, da der Doppelpunkt für ”alle Elemente“ steht:
 
@@ -319,7 +324,7 @@ M(:,1)
 > ​	4
 > ​	7
 
-
+<br>
 
 Die erste und dritte Zeile lässt sich über folgende Indexierung ansprechen:
 
@@ -332,7 +337,7 @@ M([1 3],:)
 > ​	 1     2     3
 > ​	 7     8     9
 
-
+<br>
 
 Der Begriff `end` steht für den maximalen Index:
 
@@ -345,7 +350,7 @@ M([1 3],end-1:end)
 >  	2     3
 >  	8     9
 
-
+<br>
 
 #### 2.2.3 Grundlegende Matrix Operationen
 
@@ -359,7 +364,7 @@ size(M)
 >
 > ​	 3     3
 
-
+<br>
 
 Da in Matlab beinahe jedes Objekt eine Matrix darstellt, muss man sich keine Gedanken bei den elementaren Rechen-Operationen (wie +,-,*,/) machen. So muss man keine speziellen Funktionen für eine Matrix-Multiplikation aufrufen:
 
@@ -386,7 +391,7 @@ A * B
 > ​	19    22
 > ​	43    50
 
-
+<br>
 
 Möchte man stattdessen die beiden Matrizen <u>elementweise</u> multiplizieren, so muss man `.` vor den Operator setzen:
 
@@ -399,7 +404,7 @@ A .* B
 > ​	 5     12
 > ​	21    32
 
-
+<br>
 
 Um alle Werte einer Zeile aufzusummieren, benutzt man die Function `sum()`:
 
@@ -411,7 +416,7 @@ sum(A(1,: ))
 >
 >  	3
 
-
+<br>
 
 Die Transponierte der Matrix `A` erhält man über den Operator `'`:
 
@@ -424,7 +429,7 @@ A'
 >  	1     3
 >  	2     4
 
-
+<br>
 
 _____
 
@@ -438,7 +443,7 @@ _____
 
 _______
 
-
+<br>
 
 #### 2.2.4 Kontrollstrukturen
 
@@ -458,7 +463,7 @@ else
 end
 ```
 
-
+<br>
 
 ##### for-Schleifen
 
@@ -470,7 +475,7 @@ for x = 1 : 8
 end
 ```
 
-
+<br>
 
 __________
 
