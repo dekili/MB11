@@ -70,7 +70,7 @@ Um MATLAB herunterzulande, benötigen Sie einen **MathWorks Account**. Falls Sie
 
 <br>
 
-Geben Sie nun ihre studentische E-Mail-Adresse und die folgenden weiteren Informationen an:
+Geben Sie nun Ihre studentische E-Mail-Adresse und die folgenden weiteren Informationen an:
 
 <img src="img\1 Mathworks & Download\3.jpg" alt="A3" align=center width="1080" />
 
