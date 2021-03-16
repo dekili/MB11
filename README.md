@@ -82,7 +82,7 @@ Sobald Ihr Account eingerichtet wurde, finden Sie unter Ihrem Account Ihre indiv
 
 <br>
 
-Nun können Sie den Installer für die aktuellste MATLAB-Version (2020b, Update 4) herunterladen. Dieser wird für alle gängigen Betriebssysteme (Windows, Mac, Linux) angeboten:
+Nun können Sie den Installer für die MATLAB-Version 2020b herunterladen. Dieser wird für alle gängigen Betriebssysteme (Windows, Mac, Linux) angeboten:
 
 <img src="img\1 Mathworks & Download\5.jpg" alt="A5" align=center width="1080" />
 
