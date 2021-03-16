@@ -25,7 +25,7 @@
 ### 1.1 tl;dr
 
 * Erstellen Sie auf dem [MathWorks-Portal der TU Darmstadt](https://de.mathworks.com/academia/tah-portal/tu-darmstadt-31483887.html) einen Account auf Ihre studentische E-Mail-Adresse.
-* Laden Sie in Ihrem MathWorks-Account den Installer der aktuellen MATLAB-Version (2020b, Update 4) für Ihr Betriebssystem herunter.
+* Laden Sie in Ihrem MathWorks-Account den Installer der MATLAB-Version 2020b für Ihr Betriebssystem herunter.
 * Starten Sie den Installer mit Administrator-Rechten.
 * Installieren Sie MATLAB mit folgender Auswahl an Toolboxes:
   * *Image Processing Toolbox*
