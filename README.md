@@ -485,7 +485,7 @@ __________
 - [ ] Generieren Sie zunächst die folgende Matrix `A`über folgende Zeile:
 
   ```
-  A = magic (7)
+  A = magic(7)
   ```
 
 - [ ] Ermitteln Sie die Summe der dritten und siebten Spalte sowie der vierten und fünften Reihe von `A`.
